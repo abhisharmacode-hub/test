@@ -1,0 +1,11 @@
+{
+  "name": "gcp-cost-guardrail",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "description": "Cloud Run function that auto-disables billing on a GCP project when its budget is exceeded.",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.4.0",
+    "@google-cloud/billing": "^4.1.0"
+  }
+}

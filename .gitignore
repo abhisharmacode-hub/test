@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Secrets & local env — NEVER commit
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+service-account*.json
+
+# Build output
+dist/
+build/
+
+# Logs / OS
+*.log
+.DS_Store
+Thumbs.db
